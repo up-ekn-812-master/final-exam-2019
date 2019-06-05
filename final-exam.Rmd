@@ -1,0 +1,95 @@
+---
+title: 'EKN-812: Final Exam'
+author:
+date: 
+output: pdf_document
+bibliography: ../../../../../library.bib
+biblio-style: authordate1
+geometry: margin=1in
+---
+
+_There are 55 points available on this exam. It will be graded out of 40 i.e. there are 15 bonus points available._
+
+
+**Instructions:**
+
+- You have three hours to complete this exam.
+- You may refer to any written or printed materials you find useful, but no electronic devices are permitted.
+- Write your answers in the space provided, on this exam paper. 
+- **Do NOT write your answers in a separate blue book.**
+
+\vspace{0.3\textheight}
+
+**NAME:**
+\vspace{0.15\textheight}
+
+
+**STUDENT NUMBER:**
+\vspace{0.15\textheight}
+
+\newpage
+
+1. (a) If the demand for a given industry's product has an elasticity of 2, and there are seven firms in the industry, what is the elasticity of demand facing an individual firm? If all the _other_ firms behave competitively, what additional information would you need to say whether the largest of these seven firms had a high degree of market power?
+
+\vspace{0.4\textheight}
+
+(b) Now suppose that the industry in question is car manufacturing. Steel is an important input for this industry. Suppose that the price of steel rises unexpectedly by 10\%, but car prices rise by only 5\%. Could this be taken as evidence of market power? Why or why not?
+
+\hfill [$2 \times 5 = 10$ points]
+
+\vspace{0.5\textheight}
+
+\newpage
+2. Decide whether the following statements are true, false, or uncertain. Explain your reasoning.
+
+(a) You have two plants (A and B) with identical technologies that produce the same output using labor and capital. In plant A, labor and capital usage are each growing at 4\% per year while output is growing at 5\% per year. In plant B, capital usage is growing at 5\% per year while labor usage is growing at 3\% per year and output is growing at 6\% per year. Based on this evidence, we can conclude that total factor productivity is growing faster in plant B.
+
+\vspace{0.4\textheight}
+
+(b) There is less price discrimination on services than on manufactured goods because the demand for services is more elastic.
+\vspace{0.5\textheight}
+
+(c) Richer families are more likely in any given society to employ maids and other domestic help than poorer families. This implies that the importance of domestic help should increase over time as a country develops and per capita incomes grow.
+
+\hfill [$3 \times 5 = 15$ points]
+\vspace{0.5\textheight}
+
+\newpage
+3. Consider a parent who is altruistic towards her child, but also cares about her own consumption. The parent's utility over her own consumption and that of her child is 
+
+$$
+u_P = \log(c_0) + \alpha\log(c_1)
+$$
+
+where $c_1$ is the child's consumption, and $\alpha > 0$ is the degree of parental altruism. 
+
+Suppose that the parent can invest in the child's human capital by spending money ($e$) on her education; education generates human capital $h = f(e)$ and human capital is paid at rate $w$. The parent has a total income of $y$.
+
+(a) Write down an expression for the child's future consumption in terms of the parent's choice of $e$.
+
+\vspace{0.3\textheight}
+
+(b) Now write down the Lagrangian for the parent's decision problem.
+
+\vspace{0.3\textheight}
+
+\newpage
+(c) Suppose each child has some level of baseline intelligence $h_0$, which they would be able to use even without any investments from their parents. Assume all children have the same level of baseline intelligence, but they may differ in their ability level $a$, and ability makes educational investments more productive. In particular, $f(e) = h_0 + ae$. With these assumptions, write down the first-order conditions for the parent's problem.
+
+\vspace{0.5\textheight}
+
+(d) Find the parent's optimal choice of $c_0$, $e$, and $c_1$. Be careful to allow for corner solutions.
+
+\vspace{0.5\textheight}
+
+
+\newpage
+(e) If families differ in both their wealth levels and in the abilities of their children, which families will invest in their children's education?
+
+**Hint:** You should be able to solve for the optimal level of $e$ when the solution is interior. If you set $e^* = 0$, this defines a boundary in the $(a, y)$ plane between the set of families who invest, and those who don't.
+
+\vspace{0.4\textheight}
+
+(f) Suppose that all families have the same degree of altruism and each child has the same baseline intelligence. If you had data on children's education and parental wealth, how would you measure the extent to which differences in parental wealth explain differences in children's education? What statistical problems can you anticipate with such a measure (think about the joint distribution of ability and parental wealth)?
+
+\hfill [$6 \times 5 = 30$ points]

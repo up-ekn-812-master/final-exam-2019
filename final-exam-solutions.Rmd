@@ -1,0 +1,161 @@
+---
+title: 'EKN-812 Final Exam: Suggested Solutions'
+author:
+date: 
+output: pdf_document
+bibliography: ../../../../../library.bib
+biblio-style: authordate1
+geometry: margin=1in
+---
+
+_There are 55 points available on this exam. It will be graded out of 40 i.e. there are 15 bonus points available._
+
+1. (a) If the demand for a given industry's product has an elasticity of 2, and there are seven firms in the industry, what is the elasticity of demand facing an individual firm? If all the _other_ firms behave competitively, what additional information would you need to say whether the largest of these seven firms had a high degree of market power?
+
+**Answer:** This is very similar to a problem from class. Say the firm that unilaterally raises its price is $i$. If all the other firms behave competitively (and match the price of the deviating firm) then we worked out that the elasticity of demand facing firm $i$ is
+
+$$
+\varepsilon^D_i = \frac{1}{s_i}\varepsilon^D - \frac{1-s_i}{s_i}\varepsilon^S_{-i}
+$$
+
+where $\varepsilon^S_{-i}$ is the elasticity of supply of all the other firms (besides $i$), and $s_i$ is $i$'s market share. We were already given $\varepsilon^D = -2$. So, you can't say anything without knowing $\varepsilon^S_{-i}$ and $s_i$.
+
+(b) Now suppose that the industry in question is car manufacturing. Steel is an important input for this industry. Suppose that the price of steel rises unexpectedly by 10\%, but car prices rise by only 5\%. Could this be taken as evidence of market power? Why or why not?
+
+\hfill [$2 \times 5 = 10$ points]
+
+**Answer:** The scenario described is one of incomplete pass-through (of cost shocks). It's true that monopolists don't pass on costs one-for-one into final prices, but as we discussed in class, we'd expect the same from a competitive industry as long as demand is downward sloping and supply slopes up. (In the given scenario, the cost shock affects the whole industry, not just a specific firm. In the monopolist case, of course, the firm is the industry!) So, the given evidence is inconclusive about whether this industry is competitive or not.
+
+2. Decide whether the following statements are true, false, or uncertain. Explain your reasoning.
+
+(a) You have two plants (A and B) with identical technologies that produce the same output using labor and capital. In plant A, labor and capital usage are each growing at 4\% per year while output is growing at 5\% per year. In plant B, capital usage is growing at 5\% per year while labor usage is growing at 3\% per year and output is growing at 6\% per year. Based on this evidence, we can conclude that total factor productivity is growing faster in plant B.
+
+**Answer:** True. Writing everything in terms of growth rates, we have
+
+\begin{eqnarray}
+\Delta Y_A & = & \Delta TFP_A + s_L\Delta L_A + s_K \Delta K_A \\
+\Delta Y_B & = & \Delta TFP_B + s_L\Delta L_B + s_K \Delta K_B 
+\end{eqnarray}
+
+where $Y$ is output, $L$ is labor usage, and $K$ is capital usage. $s_L$ is the cost share of labor, and this is the same in both plants (because of the identical technology); of course, $s_K = 1 - s_L$.
+
+We are given that $\Delta Y_A = 5\%$ and $\Delta Y_B = 6\%$, and that $\Delta L_A = \Delta K_A = 4\%$. Finally, we know that $\Delta L_B = 3\%$ and $\Delta K_B = 5\%$. Filling all this in and subtracting, we have 
+
+\begin{eqnarray*}
+\Delta TFP_B - \Delta TFP_A & = & 1\% + s_L\cdot (4\% - 3\%) + s_K\cdot (4\% - 5\%) \\
+& = & 1\%\cdot(1 +s_L - s_K) = s_L \cdot 2\% > 0
+\end{eqnarray*}
+
+(b) There is less price discrimination on services than on manufactured goods because the demand for services is more elastic.
+
+**Answer:** False (or uncertain): the features of services that makes them easier to price discriminate on compared to physical goods are (1) it's impossible to resell them, and (2) you often know a lot about the identity and circumstances of buyers, so you can more easily figure out different people's willingness to pay for the service. 
+
+At such a high level of aggregation ("manufacturing" vs "services") it's hard to even think about comparing demand elasticities. Presumably yachts or luxury cars have a more elastic demand than basic education services or childcare, despite the fact that yachts are manufactured and education is a service.
+
+
+(c) Richer families are more likely in any given society to employ maids and other domestic help than poorer families. This implies that the importance of domestic help should increase over time as a country develops and per capita incomes grow.
+
+\hfill [$3 \times 5 = 15$ points]
+
+**Answer:** False. Economic growth may increase the demand for domestic help, but it also contracts its supply. Even the relatively poor in a richer, more-educated population will often have better opportunities in other sectors besides domestic help. This should be especially obvious to those of you who have visited rich countries!
+
+You could also have mentioned the fact that a lot of technological progress seems to be labor-saving (think of washing machines, vacuum cleaners, etc) which might have a direct effect on the demand for hired domestic help.
+
+3. Consider a parent who is altruistic towards her child, but also cares about her own consumption. The parent's utility over her own consumption and that of her child is 
+
+$$
+u_P = \log(c_0) + \alpha\log(c_1)
+$$
+
+where $c_1$ is the child's consumption, and $\alpha > 0$ is the degree of parental altruism. 
+
+Suppose that the parent can invest in the child's human capital by spending money ($e$) on her education; education generates human capital $h = f(e)$ and human capital is paid at rate $w$. The parent has a total income of $y$.
+
+(a) Write down an expression for the child's future consumption in terms of the parent's choice of $e$.
+
+**Answer:** $c_1 = wf(e)$. This is an additional constraint on the parent's problem, which we will use below.
+
+(b) Now write down the Lagrangian for the parent's decision problem.
+
+**Answer:** If we use $\lambda$ for the multiplier on the parent's budget constraint and $\mu$ for the multiplier on the constraint on the child's consumption, we get
+
+$$
+\mathcal{L} = \log(c_0) + \alpha \log(c_1) + \lambda[y - e - c_0] + \mu[wf(e) - c_1]
+$$
+
+(c) Suppose each child has some level of baseline intelligence $h_0$, which they would be able to use even without any investments from their parents. Assume all children have the same level of baseline intelligence, but they may differ in their ability level $a$, and ability makes educational investments more productive. In particular, $f(e) = h_0 + ae$. With these assumptions, write down the first-order conditions for the parent's problem.
+
+**Answer:** We have, taking the FOC with respect to $c_0, c_1$ and $e$ in order:
+
+\begin{eqnarray}
+\frac{1}{c_0} & = & \lambda \\
+\frac{\alpha}{c_1} & = & \mu \\
+-\lambda + \mu wa & \leq & 0 \text{ with equality if $e^* > 0$}
+\end{eqnarray}
+
+We also have the two constraints, which come from differentiating with respect to the multipliers:
+\begin{eqnarray}
+y & = & c_0 + e \\
+c_1 & = & w(h_0 + ae)
+\end{eqnarray}
+
+(d) Find the parent's optimal choice of $c_0$, $e$, and $c_1$. Be careful to allow for corner solutions.
+
+**Answer:** The budget constraint always binds because the marginal utility of consumption (for both the parent and the child) is always positive, so $\lambda > 0$ at the solution. So there are two cases to consider: either $e^* > 0$ or $e^* = 0$. Which case applies depends on the parameters of the problem; here, we think of the child's baseline intelligence $h_0$, skill price $w$ and the altruism parameter $\alpha$ as being common across all families, while ability $a$ and wealth $y$ might differ. As you might guess, families with either low wealth or low ability are going to be the ones that end up not investing - but we need to show this.
+
+First, let's find the solution when we have $e^* > 0$. In this case, we have
+
+$$
+wa = \frac{\lambda}{\mu} = \frac{c_1}{\alpha c_0}
+$$
+
+and since $e = y - c_0$ and $c_1 = w(h_0 + ae) = wh_0 + wa(y-c_0)$ we get
+
+$$
+c_1 = wh_0 + \left(\frac{c_1}{\alpha c_0}\right)(y-c_0)
+$$
+
+which we can rearrange to get
+
+$$
+c^*_1 = \left(\frac{\alpha}{1+\alpha}\right)w(h_0 + ay).
+$$
+
+At this point the other choice variables can be read off the relationships $c_0 = c_1/(\alpha wa)$ and $e = y - c_0$. They are
+
+$$
+c^*_0 = \frac{h_0 + ay}{a(1+\alpha)}
+$$
+
+and the optimal choice of education is 
+
+$$
+e^* = \frac{\alpha}{1+\alpha}y - \frac{h_0}{a(1+\alpha)}.
+$$
+
+Notice how this is increasing in both parental wealth and the child's ability, but _decreasing_ in the "baseline intelligence" $h_0$. This has a crowd-out interpretation (if your kid is naturally very smart you can choose to save the money you would have spent on extra lessons).
+
+Now, you may notice that if $y$ or $a$ are small enough, our expression for $e^*$ will be negative. Since that's not allowed, we can tell that in those cases the parents would set $e^* = 0$, and we'd have $c^*_1 = wh_0$, $e^* = 0$ and $c^*_0 = y$ (check that this does satisfy the FOC with $\mu wa < \lambda$).
+
+(e) If families differ in both their wealth levels and in the abilities of their children, which families will invest in their children's education?
+
+**Hint:** You should be able to solve for the optimal level of $e$ when the solution is interior. If you set $e^* = 0$, this defines a boundary in the $(a, y)$ plane between the set of families who invest, and those who don't.
+
+**Answer:** We already have the main part of the answer. Remembering again that we are thinking of families as identical except for their $a$ and $y$, we can set $e^*(a,y) = 0$ to get $ay = h_0/\alpha$. This is a hyperbola in the $(a, y)$ plane, and as you can verify by testing extreme cases (e.g. $a = 0, y > 0$), the set of families in the "northeast" of the plane, above the line $ay = h_0/\alpha$, are the ones who invest. The ones "below" or to the "southwest" of the line don't.
+
+
+(f) Suppose that all families have the same degree of altruism and each child has the same baseline intelligence. If you had data on children's education and parental wealth, how would you measure the extent to which differences in parental wealth explain differences in children's education? What statistical problems can you anticipate with such a measure (think about the joint distribution of ability and parental wealth)?
+
+\hfill [$6 \times 5 = 30$ points]
+
+**Answer:** Again the key is to carefully interpret the solution for $e^*$. We have
+
+$$
+e^* = \frac{\alpha}{1+\alpha}y - \frac{h_0}{a(1+\alpha)}.
+$$
+
+With data on $(y, e)$ for a random sample of families, we could imagine doing something like running a regression of $e$ on $y$ and computing the $R^2$. But, our formula exactly tells us that there is another factor that determines $e$, namely ability. We're not going to get consistent estimates of $\alpha/(1+\alpha)$ if $a$ is correlated with $y$ (although that's not really our interest). More importantly, when ability and parental wealth are correlated, but we don't observe ability, we'll tend to attribute too much importance to the role of wealth.
+
+Is this a plausible scenario? It depends partly on what stage of life and what kind of education is being described by this model. If "ability" means "ability at birth", we might not assume wealth and ability are correlated (although to the extent that wealth buys you better nutrition and healthcare _in utero_ even that is debatable). But if we are thinking of $e$ as being investments in schooling, or higher education, then almost certainly $y$ and $a$ are going to be correlated. Parents can give their kids lots of things that enhance the productivity of education - better intellectual support at home (possibly because the parents are better educated), better health, a safer home, etc, and to the extent that these things are "normal goods", richer families will have more of them.
+
+
